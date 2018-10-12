@@ -8,7 +8,7 @@
 
     $ firebase login
 
-    $ firebase init
+    $ firebase init (You need to set deploying folder as "build".)
 
     $ firebase deploy
 
