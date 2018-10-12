@@ -34,7 +34,7 @@ class App extends Component {
             <Media style={style} />
             <Culture style={style} />
               <Typography variant="subtitle1" gutterBottom style={style} >
-                This page is built by using React.js and Firebase.
+                I built this page by using React.js and Firebase.
               </Typography>
             <Typography variant="subtitle2" gutterBottom style={{ marginBottom: 32 }} >
               &copy; 2018 Kazuya Fujimori

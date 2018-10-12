@@ -12,13 +12,16 @@ const BackgroundVideo = (props) => {
     height: '100%',
   };
 
+  const textBottom = window.innerWidth > 800 ? window.innerHeight * 0.5 : window.innerHeight * 0.75;
+  const fontSize = window.innerWidth > 800 ? 64 : 44;
+
   const textStyle = {
     position: 'absolute',
-    bottom: window.innerHeight * 0.5,
+    bottom: textBottom,
     left: 0,
     right: 0,
     margin: 'auto',
-    fontSize: 64,
+    fontSize,
     color: 'white',
   };
 
