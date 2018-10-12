@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "fg-loadcss": "^2.0.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "prop-types": "^15.6.2",
+    "radium": "^0.25.0",
     "react": "^16.5.2",
+    "react-css-themr": "^2.1.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-player": "^1.6.6",
+    "react-scripts": "2.0.4",
+    "react-toolbox": "^2.0.0-beta.13",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
