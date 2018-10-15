@@ -37,7 +37,7 @@ function SingleLineGridList(props) {
   const cols = window.innerWidth > 800 ? 2.5 : 1.5;
 
   // const imageHeight = window.innerWidth > 800 ? 400 : 180;
-  const imageStyle = { objectFit: 'cover', height: 180 };
+  const imageStyle = window.innerWidth > 800 ? null : { objectFit: 'cover', height: 180 };
 
   return (
     <div className={classes.root}>

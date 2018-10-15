@@ -34,12 +34,15 @@ const styles = theme => ({
 function SingleLineGridList(props) {
   const { classes } = props;
 
+  const cols = window.innerWidth > 800 ? 2 : 1.5;
+  const imageStyle = window.innerWidth > 800 ? null : { objectFit: 'cover', height: 180 };
+
   return (
     <div className={classes.root}>
-      <GridList className={classes.gridList} cols={1}>
+      <GridList className={classes.gridList} cols={cols} >
         {props.items.map(product => (
             <GridListTile key={product.url} >
-              <img src={product.thumbnail} alt={product.title} />
+              <img src={product.thumbnail} alt={product.title} style={imageStyle} />
               <GridListTileBar
                 title={product.title}
                 classes={{

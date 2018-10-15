@@ -13,6 +13,14 @@ const Media = (props) => {
       title: 'SXSW 2018 Interactive現地レポート',
       date: 'March 13, 2018',
       desc: 'SXSW Interactive がテキサス州オースティンで始まった。この街に来るのは、もはや帰って来た感さえある（そして、イベント半ばでこの街を後にするときには、後ろ髪を引かれる思いを禁じ得ない）。バンコクで別の仕事があったので、現地入りできたのは SXSW Interactive の2つ目だったのだが、これまでに見聞きできた内容の一部をまとめてみた...',
+    },
+    {
+      avatarImage: '',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/myhomepage-93213.appspot.com/o/images%2Fjunsakai2.jpg?alt=media&token=c22e612f-7e1e-4755-8605-439679e49b75',
+      url: 'http://sakaijun.blog.jp/archives/33461972.html',
+      title: 'とうとう私のサッカーアプリSoccer Hackerがリリースされました！',
+      date: 'September 6, 2018',
+      desc: '',
     }
   ];
 
