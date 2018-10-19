@@ -16,7 +16,7 @@ const Portfolio = (props) => {
       ]
     },
     {
-      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/myhomepage-93213.appspot.com/o/images%2Fheader-color400.png?alt=media&token=c6db1322-9121-409e-86cd-7052fb8fa5b9',
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/myhomepage-93213.appspot.com/o/images%2FFLEGO_header_android.png?alt=media&token=efe08534-4cdc-4367-a2aa-cef94325d250',
       url: 'https://itunes.apple.com/jp/app/flego/id1403688594?l=en&mt=8',
       title: 'React Native and Firebase, iOS/Android app',
       year: '2018',
